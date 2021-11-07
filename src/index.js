@@ -19,7 +19,6 @@ const serverUrl = "https://ahkfukjzbcdd.usemoralis.com:2053/server"
 ReactDOM.render(
 <React.StrictMode>
   <MoralisProvider appId={appId} serverUrl={serverUrl}>
-
       <ChakraProvider theme={theme}>
         <BrowserRouter>
         <App />
